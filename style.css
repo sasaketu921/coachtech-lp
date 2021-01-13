@@ -331,77 +331,49 @@ align-items: center;
 #company-area {
     color: #fff;
     margin-bottom: 200px;
-}
-
-#company-area .company {
-    position: relative;
-}
-
-#company-area .company h2{
-    text-align: center;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50% ,-50%);
-}
-
-#company-area h2 {
-    font-size: 40px;
-}
-
-#company-area p {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-
-#company-area .company p {
-    text-align: center;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50% ,-50%);
-}
-
-
-
-
-.company-wrap {
-    display: flex;
-    justify-content: space-between;
-}
-
-#company-area .company-img {
-    width: 900px;
-    height: 300px;
-    object-fit: cover;
-}
-
-#company-area .recruit {
-    position: relative;
-}
-#company-area .recruit-img {
-    width: 900px;
-    height: 300px;
-    object-fit: cover;
     
 }
 
-#company-area .recruit h2 {
-    text-align: center;
+.company-wrap {
+    width: 100%;
+    display: flex;
+    
+}
+
+.company {
+    position: relative;
+}
+
+.company-img,
+.recruit-img {
+    object-fit: cover;
+    width: 95%;
+    height: 300px;
+}
+
+.company h2,
+.recruit h2 {
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-50% ,-50%);
+    transform: translate(-50%,-50%);
+    font-size: 40px;
 }
-
-#company-area .recruit p {
-    text-align: center;
+.company p,
+.recruit p {
     position: absolute;
     top: 55%;
     left: 50%;
-    transform: translate(-50% ,-50%);
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+    font-size: 20px;
 }
+
+.recruit {
+    text-align: right;
+    position: relative;
+}
+
 
 #faq {
     background-color: #000000;
@@ -489,8 +461,8 @@ align-items: center;
 }
 
 .footer {
-  background: #000;
-  height: 70px;  
+    background: #000;
+    height: 70px;  
 }
 
 .footer-wrap {
